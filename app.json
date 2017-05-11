@@ -1,7 +1,7 @@
 {
-  "name": "FireLoop App Platform",
+  "name": "Deez App Platform",
   "description": "Modern Real-Time Framework by MEAN Expert",
-  "repository": "https://github.com/mean-expert-official/fireloop-starter.git",
+  "repository": "https://github.com/dileepab/deez.git",
   "logo": "http://docs.fireloop.io/img/avatar.png",
   "keywords": [
       "node",

@@ -2,12 +2,12 @@
   "generator-fireloop": {
     "version": "1.0.0-beta.2.4",
     "clients": {
-      "fireloop": {
-        "path": "./fireloop",
+      "deezServer": {
+        "path": "./deezServer",
         "type": "server"
       },
-      "webapp": {
-        "path": "./webapp",
+      "deezWeb": {
+        "path": "./deezWeb",
         "type": "ng2web"
       }
     }
