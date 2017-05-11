@@ -4,11 +4,11 @@
     "connector": "memory"
   },
   "mongodb": {
-    "host": "ds135790.mlab.com",
-    "port": 35790,
+    "host": "172.30.214.23",
+    "port": 27017,
     "database": "deezdb",
-    "username": "dileepa",
-    "password": "password",
+    "username": "",
+    "password": "",
     "name": "mongodb",
     "connector": "mongodb"
   }
