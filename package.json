@@ -1,0 +1,17 @@
+{
+  "name": "myfireloop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "cd fireloop/ && npm install && node server/server.js",
+    "build": "ng build --prod --output-path ../fireloop/dist",
+    "start": "cd fireloop/ && NODE_ENV=prod && node server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "loopback-connector-mongodb": "^3.0.1"
+  }
+}
