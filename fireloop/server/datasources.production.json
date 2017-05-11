@@ -3,13 +3,13 @@
     "name": "db",
     "connector": "memory"
   },
-  "mongoDs": {
+  "mongodb": {
     "host": "ds135790.mlab.com",
     "port": 35790,
-    "database": "garmentapp",
+    "database": "deezdb",
     "username": "dileepa",
     "password": "password",
-    "name": "mongoDs",
+    "name": "mongodb",
     "connector": "mongodb"
   }
 }

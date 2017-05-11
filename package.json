@@ -6,7 +6,7 @@
   "scripts": {
     "setup": "cd fireloop/ && npm install && node server/server.js",
     "build": "ng build --prod --output-path ../fireloop/dist",
-    "start": "cd fireloop/ && NODE_ENV=prod && node server/server.js"
+    "start": "cd fireloop/ && NODE_ENV=production && node server/server.js"
   },
   "keywords": [],
   "author": "",

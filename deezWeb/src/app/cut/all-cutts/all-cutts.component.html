@@ -1,0 +1,13 @@
+<md-nav-list dense>
+    <!--<md-subheader class="md-no-sticky">3 line item (with hover)</md-subheader>-->
+    <md-list-item *ngFor="let item of cuts" [routerLink]="['/cut/viewCut', item.id]">
+        <md-icon md-list-icon>shopping_basket</md-icon>
+        <h4 md-line>Date : {{item.date | date : 'dd MMM yy'}} -- Deliver Date : {{item.deliverDate | date : 'dd MMM yy'}}</h4>
+        <h4 md-line>Pattern No : {{ item.patternNo }} - </h4>
+        <h4 md-line>No Of Pieces : {{ item.noOfPieces }}</h4>
+        <p md-line> Description : {{ item.note }} </p>
+        <img src="" class="md-avatar" alt="{{item.who}}"/>
+        <md-divider ng-if="!$last"></md-divider>
+    </md-list-item>
+</md-nav-list>
+

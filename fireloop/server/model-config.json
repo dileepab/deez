@@ -17,10 +17,10 @@
     ]
   },
   "User": {
-    "dataSource": "mongoDs"
+    "dataSource": "mongodb"
   },
   "AccessToken": {
-    "dataSource": "mongoDs",
+    "dataSource": "mongodb",
     "public": false
   },
   "ACL": {
@@ -28,38 +28,38 @@
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "mongoDs",
+    "dataSource": "mongodb",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "mongoDs",
+    "dataSource": "mongodb",
     "public": true
   },
   "Cut": {
-    "dataSource": "mongoDs",
+    "dataSource": "mongodb",
     "public": true
   },
   "AppUser": {
-    "dataSource": "mongoDs",
+    "dataSource": "mongodb",
     "public": true
   },
   "Attendance": {
-    "dataSource": "mongoDs",
+    "dataSource": "mongodb",
     "public": true
   },
   "Employee": {
-    "dataSource": "mongoDs",
+    "dataSource": "mongodb",
     "public": true
   },
   "Holiday": {
-    "dataSource": "mongoDs",
+    "dataSource": "mongodb",
     "public": true
   },
   "OverTime": {
-    "dataSource": "mongoDs",
+    "dataSource": "mongodb",
     "public": true
   }
 }

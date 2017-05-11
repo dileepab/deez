@@ -3,13 +3,13 @@
     "name": "db",
     "connector": "memory"
   },
-  "mongoDs": {
+  "mongodb": {
     "host": "localhost",
     "port": 27017,
-    "database": "garmentapp",
+    "database": "deezdb",
     "username": "",
     "password": "",
-    "name": "mongoDs",
+    "name": "mongodb",
     "connector": "mongodb"
   }
 }
