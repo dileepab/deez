@@ -6,7 +6,7 @@
   "scripts": {
     "setup": "cd deezServer/ && npm install && node server/server.js",
     "build": "ng build --prod --output-path ../deezServer/dist",
-    "start": "cd deezServer/ && NODE_ENV=production && node server/server.js"
+    "start": "cd deezServer/ && npm install && node server/server.js"
   },
   "keywords": [],
   "author": "",
