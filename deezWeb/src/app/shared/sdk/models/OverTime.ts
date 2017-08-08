@@ -2,21 +2,21 @@
 
 declare var Object: any;
 export interface OverTimeInterface {
-  "date": any;
-  "startTime": any;
-  "endTime": any;
+  "date": Date;
+  "startTime": Date;
+  "endTime": Date;
   "id"?: any;
-  "createdAt"?: any;
-  "updatedAt"?: any;
+  "createdAt"?: Date;
+  "updatedAt"?: Date;
 }
 
 export class OverTime implements OverTimeInterface {
-  "date": any;
-  "startTime": any;
-  "endTime": any;
+  "date": Date;
+  "startTime": Date;
+  "endTime": Date;
   "id": any;
-  "createdAt": any;
-  "updatedAt": any;
+  "createdAt": Date;
+  "updatedAt": Date;
   constructor(data?: OverTimeInterface) {
     Object.assign(this, data);
   }
@@ -50,15 +50,15 @@ export class OverTime implements OverTimeInterface {
       properties: {
         "date": {
           name: 'date',
-          type: 'any'
+          type: 'Date'
         },
         "startTime": {
           name: 'startTime',
-          type: 'any'
+          type: 'Date'
         },
         "endTime": {
           name: 'endTime',
-          type: 'any'
+          type: 'Date'
         },
         "id": {
           name: 'id',
@@ -66,11 +66,11 @@ export class OverTime implements OverTimeInterface {
         },
         "createdAt": {
           name: 'createdAt',
-          type: 'any'
+          type: 'Date'
         },
         "updatedAt": {
           name: 'updatedAt',
-          type: 'any'
+          type: 'Date'
         },
       },
       relations: {

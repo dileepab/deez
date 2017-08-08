@@ -20,7 +20,8 @@
 * }
 **/
 export class LoopBackConfig {
-  private static path: string = '';
+  private static path: string = '//0.0.0.0:3000';
+  // private static path: string = '//deezapp.herokuapp.com';
   private static version: string | number = 'api';
   private static authPrefix: string = '';
   private static debug: boolean = true;

@@ -48,7 +48,6 @@ import { SocketBrowser } from './sockets/socket.browser';
 import { SocketDriver } from './sockets/socket.driver';
 import { SocketConnection } from './sockets/socket.connections';
 import { RealTime } from './services/core/real.time';
-import { UserApi } from './services/custom/User';
 import { RoleApi } from './services/custom/Role';
 import { CutApi } from './services/custom/Cut';
 import { AppUserApi } from './services/custom/AppUser';
@@ -56,6 +55,12 @@ import { AttendanceApi } from './services/custom/Attendance';
 import { EmployeeApi } from './services/custom/Employee';
 import { HolidayApi } from './services/custom/Holiday';
 import { OverTimeApi } from './services/custom/OverTime';
+import { EmailApi } from './services/custom/Email';
+import { PatternApi } from './services/custom/Pattern';
+import { ContainerApi } from './services/custom/Container';
+import { SpWorkingDayApi } from './services/custom/SpWorkingDay';
+import { ImageFileApi } from './services/custom/ImageFile';
+import { TargetApi } from './services/custom/Target';
 /**
 * @module SDKBrowserModule
 * @description
@@ -87,7 +92,6 @@ export class SDKBrowserModule {
         JSONSearchParams,
         SDKModels,
         RealTime,
-        UserApi,
         RoleApi,
         CutApi,
         AppUserApi,
@@ -95,6 +99,12 @@ export class SDKBrowserModule {
         EmployeeApi,
         HolidayApi,
         OverTimeApi,
+        EmailApi,
+        PatternApi,
+        ContainerApi,
+        SpWorkingDayApi,
+        ImageFileApi,
+        TargetApi,
         internalStorageProvider,
         { provide: SDKStorage, useClass: StorageBrowser },
         { provide: SocketDriver, useClass: SocketBrowser }

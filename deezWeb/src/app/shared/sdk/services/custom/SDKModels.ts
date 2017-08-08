@@ -1,6 +1,5 @@
 /* tslint:disable */
 import { Injectable } from '@angular/core';
-import { User } from '../../models/User';
 import { Role } from '../../models/Role';
 import { Cut } from '../../models/Cut';
 import { AppUser } from '../../models/AppUser';
@@ -8,6 +7,12 @@ import { Attendance } from '../../models/Attendance';
 import { Employee } from '../../models/Employee';
 import { Holiday } from '../../models/Holiday';
 import { OverTime } from '../../models/OverTime';
+import { Email } from '../../models/Email';
+import { Pattern } from '../../models/Pattern';
+import { Container } from '../../models/Container';
+import { SpWorkingDay } from '../../models/SpWorkingDay';
+import { ImageFile } from '../../models/ImageFile';
+import { Target } from '../../models/Target';
 
 export interface Models { [name: string]: any }
 
@@ -15,7 +20,6 @@ export interface Models { [name: string]: any }
 export class SDKModels {
 
   private models: Models = {
-    User: User,
     Role: Role,
     Cut: Cut,
     AppUser: AppUser,
@@ -23,6 +27,12 @@ export class SDKModels {
     Employee: Employee,
     Holiday: Holiday,
     OverTime: OverTime,
+    Email: Email,
+    Pattern: Pattern,
+    Container: Container,
+    SpWorkingDay: SpWorkingDay,
+    ImageFile: ImageFile,
+    Target: Target,
     
   };
 

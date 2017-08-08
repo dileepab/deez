@@ -2,35 +2,35 @@
 
 declare var Object: any;
 export interface CutInterface {
-  "noOfYards": any;
-  "yardPrice": any;
-  "noOfPieces": any;
+  "noOfYards": number;
+  "yardPrice": number;
+  "noOfPieces": number;
   "otherMaterials": any;
-  "piecePrice": any;
-  "patternNo"?: any;
+  "piecePrice": number;
+  "patternNo"?: string;
   "customer"?: any;
-  "deliverDate"?: any;
-  "date": any;
-  "note"?: any;
+  "deliverDate"?: Date;
+  "date": Date;
+  "note"?: string;
   "id"?: any;
-  "createdAt"?: any;
-  "updatedAt"?: any;
+  "createdAt"?: Date;
+  "updatedAt"?: Date;
 }
 
 export class Cut implements CutInterface {
-  "noOfYards": any;
-  "yardPrice": any;
-  "noOfPieces": any;
+  "noOfYards": number;
+  "yardPrice": number;
+  "noOfPieces": number;
   "otherMaterials": any;
-  "piecePrice": any;
-  "patternNo": any;
+  "piecePrice": number;
+  "patternNo": string;
   "customer": any;
-  "deliverDate": any;
-  "date": any;
-  "note": any;
+  "deliverDate": Date;
+  "date": Date;
+  "note": string;
   "id": any;
-  "createdAt": any;
-  "updatedAt": any;
+  "createdAt": Date;
+  "updatedAt": Date;
   constructor(data?: CutInterface) {
     Object.assign(this, data);
   }
@@ -64,15 +64,15 @@ export class Cut implements CutInterface {
       properties: {
         "noOfYards": {
           name: 'noOfYards',
-          type: 'any'
+          type: 'number'
         },
         "yardPrice": {
           name: 'yardPrice',
-          type: 'any'
+          type: 'number'
         },
         "noOfPieces": {
           name: 'noOfPieces',
-          type: 'any'
+          type: 'number'
         },
         "otherMaterials": {
           name: 'otherMaterials',
@@ -80,11 +80,11 @@ export class Cut implements CutInterface {
         },
         "piecePrice": {
           name: 'piecePrice',
-          type: 'any'
+          type: 'number'
         },
         "patternNo": {
           name: 'patternNo',
-          type: 'any'
+          type: 'string'
         },
         "customer": {
           name: 'customer',
@@ -92,15 +92,15 @@ export class Cut implements CutInterface {
         },
         "deliverDate": {
           name: 'deliverDate',
-          type: 'any'
+          type: 'Date'
         },
         "date": {
           name: 'date',
-          type: 'any'
+          type: 'Date'
         },
         "note": {
           name: 'note',
-          type: 'any'
+          type: 'string'
         },
         "id": {
           name: 'id',
@@ -108,11 +108,11 @@ export class Cut implements CutInterface {
         },
         "createdAt": {
           name: 'createdAt',
-          type: 'any'
+          type: 'Date'
         },
         "updatedAt": {
           name: 'updatedAt',
-          type: 'any'
+          type: 'Date'
         },
       },
       relations: {

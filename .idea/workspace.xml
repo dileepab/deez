@@ -1,0 +1,1283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="002f873f-dbcb-4c76-9522-be1df4e0bd3c" name="Default" comment="init">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezServer/dist/0.4e598b61e365e6d687bf.chunk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezServer/dist/1.752945af368d60f6d587.chunk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezServer/dist/2.9f94f0b955b61cbe1f9f.chunk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezServer/dist/3.803199f6775c3a4a9567.chunk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezServer/dist/4.0e6c5279d2c02e3e9e73.chunk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezServer/dist/5.008ffbaa3870a3e947ea.chunk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezServer/dist/inline.dbd4276daf3892c4715c.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezServer/dist/main.9844f74ed69264ca6137.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezServer/dist/polyfills.f5239a64542e99fd9f23.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezServer/dist/styles.99a48062f9e0f596ccfc.bundle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezServer/dist/vendor.cefc8f14624c6e3a0135.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/e2e/app.e2e-spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/e2e/app.po.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/e2e/tsconfig.e2e.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/login/login.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/login/login.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/login/login.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/login/login.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/register/register.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/register/register.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/register/register.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/register/register.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/index.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/lb.config.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/models/AppUser.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/models/Attendance.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/models/BaseModels.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/models/Cut.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/models/Employee.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/models/FireLoop.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/models/FireLoopRef.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/models/Holiday.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/models/OverTime.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/models/Role.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/models/User.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/models/index.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/services/core/auth.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/services/core/base.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/services/core/error.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/services/core/index.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/services/core/io.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/services/core/real.time.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/services/core/search.params.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/services/custom/AppUser.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/services/custom/Attendance.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/services/custom/Cut.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/services/custom/Employee.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/services/custom/Holiday.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/services/custom/OverTime.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/services/custom/Role.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/services/custom/SDKModels.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/services/custom/User.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/services/custom/index.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/services/custom/logger.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/services/index.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/sockets/socket.browser.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/sockets/socket.connections.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/sockets/socket.driver.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/storage/cookie.browser.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/storage/storage.browser.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/storage/storage.swaps.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deezWeb/src/environments/environment.production.ts" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezServer/common/models/app-user.ts" afterPath="$PROJECT_DIR$/deezServer/common/models/app-user.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezServer/common/models/attendance.json" afterPath="$PROJECT_DIR$/deezServer/common/models/attendance.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezServer/common/models/cut.json" afterPath="$PROJECT_DIR$/deezServer/common/models/cut.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezServer/common/models/employee.json" afterPath="$PROJECT_DIR$/deezServer/common/models/employee.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezServer/common/models/holiday.json" afterPath="$PROJECT_DIR$/deezServer/common/models/holiday.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezServer/common/models/over-time.json" afterPath="$PROJECT_DIR$/deezServer/common/models/over-time.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezServer/dist/index.html" afterPath="$PROJECT_DIR$/deezServer/dist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezServer/package.json" afterPath="$PROJECT_DIR$/deezServer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezServer/server/boot/script.ts" afterPath="$PROJECT_DIR$/deezServer/server/boot/script.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezServer/server/component-config.json" afterPath="$PROJECT_DIR$/deezServer/server/component-config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezServer/server/component-config.production.json" afterPath="$PROJECT_DIR$/deezServer/server/component-config.production.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezServer/server/datasources.json" afterPath="$PROJECT_DIR$/deezServer/server/datasources.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezServer/server/datasources.production.json" afterPath="$PROJECT_DIR$/deezServer/server/datasources.production.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezServer/server/middleware.json" afterPath="$PROJECT_DIR$/deezServer/server/middleware.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezServer/server/model-config.json" afterPath="$PROJECT_DIR$/deezServer/server/model-config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezServer/server/server.js" afterPath="$PROJECT_DIR$/deezServer/server/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/package.json" afterPath="$PROJECT_DIR$/deezWeb/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/add-role/add-role.component.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/add-role/add-role.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/app.component.css" afterPath="$PROJECT_DIR$/deezWeb/src/app/app.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/app.component.html" afterPath="$PROJECT_DIR$/deezWeb/src/app/app.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/app.component.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/app.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/app.module.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/app.routing.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/app.routing.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/attendance/add-attendance/add-attendance.component.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/attendance/add-attendance/add-attendance.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/attendance/attendance.module.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/attendance/attendance.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/attendance/attendance.routing.module.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/attendance/attendance.routing.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/attendance/view-attendance/view-attendance.component.css" afterPath="$PROJECT_DIR$/deezWeb/src/app/attendance/view-attendance/view-attendance.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/attendance/view-attendance/view-attendance.component.html" afterPath="$PROJECT_DIR$/deezWeb/src/app/attendance/view-attendance/view-attendance.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/attendance/view-attendance/view-attendance.component.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/attendance/view-attendance/view-attendance.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/cut/add-cut/add-cut.component.html" afterPath="$PROJECT_DIR$/deezWeb/src/app/cut/add-cut/add-cut.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/cut/add-cut/add-cut.component.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/cut/add-cut/add-cut.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/cut/all-cutts/all-cutts.component.css" afterPath="$PROJECT_DIR$/deezWeb/src/app/cut/all-cutts/all-cutts.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/cut/all-cutts/all-cutts.component.html" afterPath="$PROJECT_DIR$/deezWeb/src/app/cut/all-cutts/all-cutts.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/cut/all-cutts/all-cutts.component.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/cut/all-cutts/all-cutts.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/cut/cut.module.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/cut/cut.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/cut/view-cut/view-cut.component.html" afterPath="$PROJECT_DIR$/deezWeb/src/app/cut/view-cut/view-cut.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/cut/view-cut/view-cut.component.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/cut/view-cut/view-cut.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/home/home.component.html" afterPath="$PROJECT_DIR$/deezWeb/src/app/home/home.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/services/auth.guard.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/services/auth.guard.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/settings/employee/add-employee/add-employee.component.html" afterPath="$PROJECT_DIR$/deezWeb/src/app/settings/employee/add-employee/add-employee.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/settings/employee/add-employee/add-employee.component.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/settings/employee/add-employee/add-employee.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/settings/employee/all-employees/all-employees.component.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/settings/employee/all-employees/all-employees.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/settings/employee/view-employee/view-employee.component.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/settings/employee/view-employee/view-employee.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/settings/holiday/add-holiday/add-holiday.component.html" afterPath="$PROJECT_DIR$/deezWeb/src/app/settings/holiday/add-holiday/add-holiday.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/settings/holiday/add-holiday/add-holiday.component.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/settings/holiday/add-holiday/add-holiday.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/settings/holiday/all-holidays/all-holidays.component.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/settings/holiday/all-holidays/all-holidays.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/settings/holiday/holiday.routing.module.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/settings/holiday/holiday.routing.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/settings/over-time/add-over-time/add-over-time.component.html" afterPath="$PROJECT_DIR$/deezWeb/src/app/settings/over-time/add-over-time/add-over-time.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/settings/over-time/add-over-time/add-over-time.component.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/settings/over-time/add-over-time/add-over-time.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/settings/over-time/all-over-time/all-over-time.component.html" afterPath="$PROJECT_DIR$/deezWeb/src/app/settings/over-time/all-over-time/all-over-time.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/settings/over-time/all-over-time/all-over-time.component.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/settings/over-time/all-over-time/all-over-time.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/settings/settings.component.html" afterPath="$PROJECT_DIR$/deezWeb/src/app/settings/settings.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/settings/settings.component.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/settings/settings.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/customers.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/shared/customers.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/app/shared/otherMaterial.ts" afterPath="$PROJECT_DIR$/deezWeb/src/app/shared/otherMaterial.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/environments/environment.ts" afterPath="$PROJECT_DIR$/deezWeb/src/environments/environment.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/main.ts" afterPath="$PROJECT_DIR$/deezWeb/src/main.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/src/styles.css" afterPath="$PROJECT_DIR$/deezWeb/src/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deezWeb/tslint.json" afterPath="$PROJECT_DIR$/deezWeb/tslint.json" />
+    </list>
+    <list id="d28e998b-f3b6-408a-92ef-123d0e898527" name="Unwanted" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deez.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path=".idea/deez.iml" />
+    <ignored path=".idea/jsLibraryMappings.xml" />
+    <ignored path=".idea/modules.xml" />
+    <ignored path=".idea/vcs.xml" />
+    <ignored path=".idea/inspectionProfiles/Project_Default.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="all-cutts.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deezWeb/src/app/cut/all-cutts/all-cutts.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="29">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deezWeb/src/main.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lb.config.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deezWeb/src/app/shared/sdk/lb.config.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cut.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deezServer/common/models/cut.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="82" column="6" lean-forward="false" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deezWeb/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all-cutts.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/deezWeb/src/app/cut/all-cutts/all-cutts.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="169" column="30" lean-forward="false" selection-start-line="169" selection-start-column="30" selection-end-line="169" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+                <element signature="e#2532#2769#0" expanded="false" />
+                <marker date="1502042311000" expanded="false" signature="1236:1412" ph="{&quot;order&quot;: 'date DESC'...}" />
+                <marker date="1502042311000" expanded="true" signature="3410:4072" ph="..." />
+                <marker date="1502042311000" expanded="true" signature="3473:3598" ph="..." />
+                <marker date="1502042311000" expanded="true" signature="3622:3747" ph="..." />
+                <marker date="1502042311000" expanded="true" signature="3771:3908" ph="..." />
+                <marker date="1502042311000" expanded="true" signature="3932:4061" ph="..." />
+                <marker date="1502042311000" expanded="true" signature="5166:5376" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deezWeb/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cut.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deezWeb/src/app/cut/cut.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view-attendance.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deezWeb/src/app/attendance/view-attendance/view-attendance.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="53" column="110" lean-forward="false" selection-start-line="53" selection-start-column="110" selection-end-line="53" selection-end-column="110" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>selectedEmployee</find>
+      <find>holidays</find>
+      <find>attendances</find>
+      <find>workingDays</find>
+      <find>this.currentMonth[date]</find>
+      <find>inTimeEdit</find>
+      <find>this.attendances</find>
+      <find>console.log</find>
+      <find>this.otTime</find>
+      <find>this.attendances[date]</find>
+      <find>new Date(this.currentMonth[date].overtime[0].startTime).getTime()</find>
+      <find>new Date(this.currentMonth[date].overtime[0].endTime).getTime()</find>
+      <find>new Date(this.attendances[date].inTime.dateTime).getTime()</find>
+      <find>new Date(this.attendances[date].outTime.dateTime).getTime()</find>
+      <find>timeEndTime</find>
+      <find>this.attendances[date].inTime.dateTime</find>
+      <find>this.attendances[date].outTime.dateTime</find>
+      <find>this.currentMonth[date].weekend</find>
+      <find>this.currentMonth[date].holiday</find>
+      <find>this.currentMonth[date].overtime</find>
+      <find>this.attendanceBonus === 2000 ? this.attendanceBonus = 1000 : this.attendanceBonus = 0;</find>
+      <find>calculateAttendanceBonus()</find>
+      <find>this.calculateAttendanceBonus();</find>
+      <find>number</find>
+      <find>get</find>
+      <find>all-cut-holder</find>
+      <find>RevenueDialogComponent</find>
+      <find>MdDialogModule</find>
+      <find>*ngIf=&quot;</find>
+      <find>ConfirmDialogComponent</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>mongodb</replace>
+      <replace>NODE_ENV=production</replace>
+      <replace>deezServer</replace>
+      <replace>deezWeb</replace>
+      <replace>signUp</replace>
+      <replace>Error Occurred. Check Your Internet Connection</replace>
+      <replace />
+      <replace>user</replace>
+      <replace>pattern</replace>
+      <replace>addPatternForm</replace>
+      <replace>Pattern</replace>
+      <replace>operations</replace>
+      <replace>workDays</replace>
+      <replace>otStartTime</replace>
+      <replace>otEndTime</replace>
+      <replace>timeStartTime</replace>
+      <replace>timeEndTime</replace>
+      <replace>attendanceEndTime</replace>
+      <replace>inTime</replace>
+      <replace>outTime</replace>
+      <replace>weekEnd</replace>
+      <replace>holiday</replace>
+      <replace>overTime</replace>
+      <replace>calculateAttendanceBonus()</replace>
+      <replace>this.calculateAttendanceBonus();</replace>
+      <replace>new Date(this.attendances[date].date)</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/deezWeb/src/app/auth</dir>
+      <dir>$PROJECT_DIR$/deezWeb/src/app/shared</dir>
+      <dir>$PROJECT_DIR$/deezServer</dir>
+      <dir>$PROJECT_DIR$/deezWeb/node_modules</dir>
+      <dir>$PROJECT_DIR$/deezWeb/src/app</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/deezServer/node_modules</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/deezServer/common/models/file.json" />
+        <option value="$PROJECT_DIR$/deezServer/common/models/file.ts" />
+        <option value="$PROJECT_DIR$/deezServer/server/model-config.json" />
+        <option value="$PROJECT_DIR$/deezServer/common/models/image-file.ts" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/services/FileService.ts" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/services/file.service.ts" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/pattern/add-pattern/add-pattern.component.css" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/services/Container.ts" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/pattern/pattern.routing.module.ts" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/pattern/all-pattern/all-pattern.component.ts" />
+        <option value="$PROJECT_DIR$/deezServer/common/models/pattern.json" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/models/Pattern.ts" />
+        <option value="$PROJECT_DIR$/deezServer/.credentials/drive-nodejs-quickstart.json" />
+        <option value="$PROJECT_DIR$/deezServer/common/models/container.ts" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/pattern/all-pattern/all-pattern.component.html" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/pattern/view-pattern/view-pattern.component.css" />
+        <option value="$PROJECT_DIR$/deezServer/package-lock.json" />
+        <option value="$PROJECT_DIR$/deezServer/common/models/app-user.ts" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/pattern/view-pattern/view-pattern.component.ts" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/home/home.component.html" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/pattern/add-pattern/add-pattern.component.html" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/cut/add-cut/add-cut.component.ts" />
+        <option value="$PROJECT_DIR$/deezServer/common/models/app-user.json" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/pattern/pattern.module.ts" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/pattern/view-pattern/view-pattern.component.html" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/app.routing.ts" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/target/target.module.ts" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/target/target.routing.module.ts" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/pattern/add-pattern/add-pattern.component.ts" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/settings/employee/all-employees/all-employees.component.ts" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/settings/employee/add-employee/add-employee.component.ts" />
+        <option value="$PROJECT_DIR$/deezServer/common/models/target.json" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/target/add-target/add-target.component.ts" />
+        <option value="$PROJECT_DIR$/deezWeb/src/styles.css" />
+        <option value="$PROJECT_DIR$/deezServer/server/server.js" />
+        <option value="$PROJECT_DIR$/deezWeb/tslint.json" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/attendance/view-attendance/view-attendance.component-copy.ts" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/settings/over-time/add-over-time/add-over-time.component.ts" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/settings/over-time/add-over-time/add-over-time.component.html" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/settings/over-time/all-over-time/all-over-time.component.html" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/attendance/view-attendance/view-attendance.component.html" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/attendance/view-attendance/view-attendance.component.ts" />
+        <option value="$PROJECT_DIR$/deezServer/common/models/cut.json" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/cut/all-cutts/all-cutts.component.html" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/cut/all-cutts/all-cutts.component.css" />
+        <option value="$PROJECT_DIR$/deezWeb/src/main.ts" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/shared/sdk/lb.config.ts" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/cut/cut.module.ts" />
+        <option value="$PROJECT_DIR$/deezWeb/package.json" />
+        <option value="$PROJECT_DIR$/deezWeb/src/app/cut/all-cutts/all-cutts.component.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/deezServer/node_modules" />
+    <handled-path value="$PROJECT_DIR$/deezWeb/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="997" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deez" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deez" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deez" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deez" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deezWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deez" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deez" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deezServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deez" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deez" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deezServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deez" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deez" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deezServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="node.js.path.for.package.eslint" value="$USER_HOME$/.nvm/versions/node/v8.1.2/bin/node" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/deezServer/node_modules/eslint" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.path.for.package.tslint" value="$USER_HOME$/.nvm/versions/node/v8.1.2/bin/node" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/deezWeb/node_modules/tslint" />
+    <property name="typescript-compiler-editor-notification" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="node.js.path.for.package.standard" value="$USER_HOME$/.nvm/versions/node/v8.1.2/bin/node" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.standard" value="$PROJECT_DIR$/deezServer/node_modules/eslint" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/deezServer/.credentials" />
+      <recent name="$PROJECT_DIR$/deezWeb/src/app/auth" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/deezWeb/src/app/attendance/view-attendance" />
+      <recent name="$PROJECT_DIR$/deezWeb/src/app/shared" />
+      <recent name="$PROJECT_DIR$/deezWeb/src/app/target" />
+      <recent name="$PROJECT_DIR$/deezServer/server/storage/test" />
+      <recent name="$PROJECT_DIR$/deezWeb/src/app/pattern" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.Unnamed">
+    <configuration default="false" name="datepicker.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="datepicker.js" working-dir="$PROJECT_DIR$/deezWeb/node_modules/md2/datepicker">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="deezServer/server/server.js" working-dir="$PROJECT_DIR$">
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.datepicker.js" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.datepicker.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="002f873f-dbcb-4c76-9522-be1df4e0bd3c" name="Default" comment="" />
+      <changelist id="d28e998b-f3b6-408a-92ef-123d0e898527" name="Unwanted" comment="" />
+      <created>1494482684942</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1494482684942</updated>
+      <workItem from="1494482686026" duration="2668000" />
+      <workItem from="1494486438402" duration="7539000" />
+      <workItem from="1494563603761" duration="1240000" />
+      <workItem from="1494566486126" duration="725000" />
+      <workItem from="1494825116495" duration="94000" />
+      <workItem from="1494833459459" duration="1758000" />
+      <workItem from="1494870833373" duration="1437000" />
+      <workItem from="1494917243634" duration="4448000" />
+      <workItem from="1495005049906" duration="682000" />
+      <workItem from="1495267079242" duration="5032000" />
+      <workItem from="1495287054257" duration="12641000" />
+      <workItem from="1495423765868" duration="5681000" />
+      <workItem from="1495441941626" duration="21360000" />
+      <workItem from="1495519434569" duration="3955000" />
+      <workItem from="1495540712117" duration="22000" />
+      <workItem from="1495540850015" duration="980000" />
+      <workItem from="1495611678054" duration="6382000" />
+      <workItem from="1496114783955" duration="11000" />
+      <workItem from="1496402064730" duration="157000" />
+      <workItem from="1496403787058" duration="257000" />
+      <workItem from="1496405032123" duration="13227000" />
+      <workItem from="1496638950990" duration="7101000" />
+      <workItem from="1496746375034" duration="17156000" />
+      <workItem from="1497068884140" duration="9955000" />
+      <workItem from="1497266936121" duration="22944000" />
+      <workItem from="1497506233284" duration="11646000" />
+      <workItem from="1497676520920" duration="4446000" />
+      <workItem from="1497864728694" duration="6154000" />
+      <workItem from="1497930686402" duration="909000" />
+      <workItem from="1498752212216" duration="5758000" />
+      <workItem from="1499675318723" duration="507000" />
+      <workItem from="1499682089090" duration="90000" />
+      <workItem from="1499682282472" duration="185000" />
+      <workItem from="1499770785350" duration="414000" />
+      <workItem from="1500632708878" duration="169000" />
+      <workItem from="1500865326023" duration="1701000" />
+      <workItem from="1500867408312" duration="25000" />
+      <workItem from="1500867546714" duration="28101000" />
+      <workItem from="1501999758332" duration="10305000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1494488656474</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1494488656474</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <created>1494490703680</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1494490703680</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init">
+      <created>1494495246830</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1494495246830</updated>
+    </task>
+    <task id="LOCAL-00004" summary="init">
+      <created>1494496172010</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1494496172010</updated>
+    </task>
+    <task id="LOCAL-00005" summary="init">
+      <created>1494507373958</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1494507373958</updated>
+    </task>
+    <task id="LOCAL-00006" summary="init">
+      <created>1494558181774</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1494558181774</updated>
+    </task>
+    <task id="LOCAL-00007" summary="init">
+      <created>1494563551891</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1494563551891</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="217862000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="997" extended-state="6" />
+    <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22483423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34698522" sideWeight="0.50934297" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="NativeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41410694" sideWeight="0.49065703" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5021097" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4698521" sideWeight="0.4978903" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/webapp" />
+    </ignored-roots>
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/deezWeb/node_modules/md2/datepicker/datepicker.js</url>
+          <line>184</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/deezWeb/.angular-cli.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/pattern/add-pattern/add-pattern.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="69" lean-forward="false" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/cut/add-cut/add-cut.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="70" column="98" lean-forward="false" selection-start-line="70" selection-start-column="98" selection-end-line="70" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezServer/common/models/app-user.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/pattern/view-pattern/view-pattern.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/cut/cut.routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="16" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/settings/settings.routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="75" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="27" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/pattern/pattern.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/target/target.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/app.routing.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="35" column="56" lean-forward="false" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/target/target.routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/shared/sdk/models/Cut.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezServer/common/models/employee.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/pattern/add-pattern/add-pattern.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/target/add-target/add-target.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="49" column="19" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="57" column="24" lean-forward="false" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezServer/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezServer/server/boot/script.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezServer/common/models/target.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/settings/employee/all-employees/all-employees.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/settings/employee/add-employee/add-employee.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="35" column="98" lean-forward="false" selection-start-line="35" selection-start-column="98" selection-end-line="35" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/shared/sdk/models/Holiday.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/shared/sdk/models/OverTime.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/attendance/view-attendance/view-attendance.component-copy.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="21" column="63" lean-forward="false" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/tslint.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/settings/over-time/add-over-time/add-over-time.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/settings/over-time/all-over-time/all-over-time.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="216" lean-forward="false" selection-start-line="2" selection-start-column="216" selection-end-line="2" selection-end-column="216" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/shared/sdk/models/Attendance.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/settings/over-time/add-over-time/add-over-time.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/settings/over-time/add-over-time/add-over-time.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="81" lean-forward="false" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/attendance/attendance.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/attendance/view-attendance/view-attendance.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="110" lean-forward="false" selection-start-line="53" selection-start-column="110" selection-end-line="53" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezServer/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezServer/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1073">
+          <caret line="94" column="6" lean-forward="true" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/cut/view-cut/view-cut.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#md-input-container#0;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#md-input-container#1;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#table#0;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#md-input-container#2;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#md-input-container#3;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#md-input-container#4;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#md2-datepicker#0;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#md-select#0;n#form#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#md-input-container#5;n#form#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezServer/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-451">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/shared/sdk/services/core/auth.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="78" column="9" lean-forward="false" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/auth/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezServer/common/models/cut.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="82" column="6" lean-forward="false" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/cut/all-cutts/all-cutts.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/attendance/view-attendance/view-attendance.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-488">
+          <caret line="97" column="11" lean-forward="false" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#7060#8345#0" expanded="false" />
+            <element signature="e#9121#9274#0" expanded="false" />
+            <element signature="e#9292#10366#0" expanded="false" />
+            <element signature="e#10427#11385#0" expanded="false" />
+            <element signature="e#11636#12872#0" expanded="false" />
+            <marker date="1500923930000" expanded="true" signature="18891:21138" ph="..." />
+            <marker date="1500923930000" expanded="true" signature="18962:19077" ph="..." />
+            <marker date="1500923930000" expanded="true" signature="19101:19217" ph="..." />
+            <marker date="1500923930000" expanded="true" signature="19241:19346" ph="..." />
+            <marker date="1500923930000" expanded="true" signature="19370:19523" ph="..." />
+            <marker date="1500923930000" expanded="true" signature="19538:21127" ph="..." />
+            <marker date="1500923930000" expanded="true" signature="19551:19676" ph="..." />
+            <marker date="1500923930000" expanded="true" signature="19689:19818" ph="..." />
+            <marker date="1500923930000" expanded="true" signature="19831:19991" ph="..." />
+            <marker date="1500923930000" expanded="true" signature="20004:20139" ph="..." />
+            <marker date="1500923930000" expanded="true" signature="20152:20301" ph="..." />
+            <marker date="1500923930000" expanded="true" signature="20314:20443" ph="..." />
+            <marker date="1500923930000" expanded="true" signature="20456:20569" ph="..." />
+            <marker date="1500923930000" expanded="true" signature="20582:20708" ph="..." />
+            <marker date="1500923930000" expanded="true" signature="20721:20868" ph="..." />
+            <marker date="1500923930000" expanded="true" signature="20881:21112" ph="..." />
+            <marker date="1500923930000" expanded="true" signature="20967:21098" ph="..." />
+            <marker date="1500923930000" expanded="true" signature="21482:21492" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/cut/all-cutts/all-cutts.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/shared/sdk/lb.config.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/node_modules/@angular/material/typings/dialog/dialog-injector.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/cut/cut.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deezWeb/src/app/cut/all-cutts/all-cutts.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="169" column="30" lean-forward="false" selection-start-line="169" selection-start-column="30" selection-end-line="169" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+            <element signature="e#2532#2769#0" expanded="false" />
+            <marker date="1502042311000" expanded="false" signature="1236:1412" ph="{&quot;order&quot;: 'date DESC'...}" />
+            <marker date="1502042311000" expanded="true" signature="3410:4072" ph="..." />
+            <marker date="1502042311000" expanded="true" signature="3473:3598" ph="..." />
+            <marker date="1502042311000" expanded="true" signature="3622:3747" ph="..." />
+            <marker date="1502042311000" expanded="true" signature="3771:3908" ph="..." />
+            <marker date="1502042311000" expanded="true" signature="3932:4061" ph="..." />
+            <marker date="1502042311000" expanded="true" signature="5166:5376" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

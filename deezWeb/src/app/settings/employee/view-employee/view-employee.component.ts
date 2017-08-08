@@ -2,6 +2,7 @@ import {Component, OnDestroy, OnInit} from '@angular/core';
 import {EmployeeApi} from '../../../shared/sdk/services/custom/Employee';
 import {ActivatedRoute, Router} from '@angular/router';
 import {Employee} from '../../../shared/sdk/models/Employee';
+import {MdSnackBar} from '@angular/material';
 
 @Component({
   selector: 'app-view-employee',
@@ -16,7 +17,11 @@ export class ViewEmployeeComponent implements OnInit, OnDestroy {
   public employee: Employee = new Employee();
   public loading = false;
 
-  constructor(private employeeApi: EmployeeApi, private router: Router, private route: ActivatedRoute) { }
+  constructor(private employeeApi: EmployeeApi,
+              private router: Router,
+              private route: ActivatedRoute,
+              public snackBar: MdSnackBar) {
+  }
 
   ngOnInit() {
     this.sub = this.route.params.subscribe((params: any) => {
@@ -41,7 +46,10 @@ export class ViewEmployeeComponent implements OnInit, OnDestroy {
         this.loading = false;
       },
       err => {
-        console.log(err);
+        this.snackBar.open(err.message ? err.message : 'Error Occurred!. Check Your Internet Connection',
+          (err.statusCode === 401 ? this.router.navigate(['/auth/logout']) : false) && 'DISMISS', {
+            duration: 5000
+          });
         this.loading = false;
       }
     );

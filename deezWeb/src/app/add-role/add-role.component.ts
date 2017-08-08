@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Role, RoleApi} from '../shared/sdk';
 import {TitleService} from '../services/title.service';
+import {MdSnackBar} from '@angular/material';
 
 @Component({
   selector: 'app-add-role',
@@ -14,28 +15,33 @@ export class AddRoleComponent implements OnInit {
 
   loading = false;
 
-  constructor(public roleApi: RoleApi, private titleService: TitleService) { }
+  constructor(public roleApi: RoleApi,
+              private titleService: TitleService,
+              public snackBar: MdSnackBar) {
+  }
 
   ngOnInit() {
     this.titleService.sendTitle('Add Role');
     this.roleApi.find().subscribe(
-        (roles: Role[]) => {
-          this.roles = roles;
-        }
+      (roles: Role[]) => {
+        this.roles = roles;
+      }
     );
   }
 
   addRole() {
     this.loading = true;
     this.roleApi.create(this.role).subscribe(
-        (role: Role) => {
-          this.loading = false;
-          this.roles.push(role);
-        },
-        err => {
-          alert(err.message);
-          this.loading = false;
-        }
+      (role: Role) => {
+        this.loading = false;
+        this.roles.push(role);
+      },
+      err => {
+        this.snackBar.open(err.message ? err.message : 'Error Occurred. Check Your Internet Connection', 'DISMISS', {
+          duration: 5000,
+        });
+        this.loading = false;
+      }
     );
   }
 

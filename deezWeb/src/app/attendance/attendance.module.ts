@@ -15,7 +15,7 @@ import {SalarySlipDialogComponent, ViewAttendanceComponent} from './view-attenda
     AttendanceRoutingModule,
     SDKBrowserModule,
     FormsModule,
-    Md2Module.forRoot(),
+    Md2Module,
     MaterialModule,
     FlexLayoutModule
   ],

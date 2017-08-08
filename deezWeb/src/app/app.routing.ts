@@ -1,46 +1,43 @@
 import {Routes, RouterModule} from '@angular/router';
 import {HomeComponent} from './home/home.component';
-import {LoginComponent} from './login/login.component';
-import {RegisterComponent} from './register/register.component';
 import {AddRoleComponent} from './add-role/add-role.component';
 import {AuthGuard} from './services/auth.guard';
 
 
 const appRoutes: Routes = [
-    {path: '', canActivate: [AuthGuard], component: HomeComponent},
-    {path: 'login', canActivate: [AuthGuard], component: LoginComponent},
-    {path: 'register', canActivate: [AuthGuard], component: RegisterComponent},
-    {path: 'addRole', canActivate: [AuthGuard], component: AddRoleComponent},
-    {
-        path: 'cut',
-        loadChildren: 'app/cut/cut.module#CutModule'
-        // children: [
-        //     {path: '', redirectTo: 'allCuts', pathMatch: 'full'},
-        //     {path: '', loadChildren: 'app/cut/cut.module#CutModule'}
-        // ]
-    },
-    {
-        path: 'attendance',
-        loadChildren: 'app/attendance/attendance.module#AttendanceModule'
-        // children: [
-        //     {path: '', redirectTo: 'addAttendance', pathMatch: 'full'},
-        //     {path: '', loadChildren: 'app/attendance/attendance.module#AttendanceModule'}
-        // ]
-    },
-    {
-        path: 'settings',
-        loadChildren: 'app/settings/settings.module#SettingsModule'
-        // children: [
-        //     // {path: '', redirectTo: 'settings', pathMatch: 'full'},
-        //     {path: 'settings', loadChildren: 'app/settings/settings.module#SettingsModule'}
-        // ]
-    },
-    {
-        path: 'login', canActivate: [AuthGuard], component: LoginComponent
-    },
+  {path: '', canActivate: [AuthGuard], component: HomeComponent},
+  // {
+  //   path: 'pattern',
+  //   loadChildren: 'app/pattern/pattern.module#PatternModule'
+  // },
+  {path: 'addRole', canActivate: [AuthGuard], component: AddRoleComponent},
+  {
+    path: 'cut',
+    loadChildren: 'app/cut/cut.module#CutModule'
+  },
+  {
+    path: 'attendance',
+    loadChildren: 'app/attendance/attendance.module#AttendanceModule'
+  },
+  {
+    path: 'settings',
+    loadChildren: 'app/settings/settings.module#SettingsModule'
+  },
+  {
+    path: 'auth',
+    loadChildren: 'app/auth/auth.module#AuthModule'
+  },
+  {
+    path: 'pattern',
+    loadChildren: 'app/pattern/pattern.module#PatternModule'
+  },
+  {
+    path: 'target',
+    loadChildren: 'app/target/target.module#TargetModule'
+  },
 
-    // otherwise redirect to home
-    {path: '**', redirectTo: ''}
+  // otherwise redirect to home
+  {path: '**', redirectTo: 'pattern'}
 
 ];
 

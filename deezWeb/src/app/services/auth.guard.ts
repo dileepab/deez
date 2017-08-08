@@ -9,13 +9,16 @@ export class AuthGuard implements CanActivate {
 
   canActivate(next: ActivatedRouteSnapshot, state: RouterStateSnapshot) {
     const path: string = next.url[0] ? next.url[0].path : '';
-    if (((path === 'login') || (path === 'register')) && this.isAuthenticated()) {
+    if (((path === 'login') || (path === 'signUp') || (path === 'resetPassword') ||
+      (path === 'changePassword')) && this.isAuthenticated()) {
       this.router.navigate(['/']);
       return false;
-    } else if (((path === 'login') || (path === 'register')) && (!this.isAuthenticated())) {
+    } else if (((path === 'login') || (path === 'signUp') || (path === 'resetPassword') ||
+      (path === 'changePassword')) && (!this.isAuthenticated())) {
       return true;
-    } else if (!((path === 'login') || (path === 'register')) && (!this.isAuthenticated())) {
-      this.router.navigate(['/login']);
+    } else if (!((path === 'login') || (path === 'signUp') || (path === 'resetPassword') ||
+      (path === 'changePassword')) && (!this.isAuthenticated())) {
+      this.router.navigate(['/auth']);
       return true;
     } else {
       return true;

@@ -5,49 +5,49 @@ import {
 
 declare var Object: any;
 export interface EmployeeInterface {
-  "initials"?: any;
-  "firstName": any;
-  "lastName"?: any;
-  "nic"?: any;
-  "uid"?: any;
-  "joinDate"?: any;
-  "email"?: any;
-  "resignDate"?: any;
-  "salary"?: any;
-  "designation"?: any;
-  "contactNo"?: any;
-  "realm"?: any;
-  "username"?: any;
-  "password": any;
-  "emailVerified"?: any;
-  "verificationToken"?: any;
+  "initials"?: string;
+  "firstName": string;
+  "lastName"?: string;
+  "nic"?: string;
+  "uid"?: string;
+  "joinDate"?: Date;
+  "email"?: Date;
+  "resignDate"?: Date;
+  "salary"?: string;
+  "designation"?: string;
+  "contactNo"?: string;
+  "realm"?: string;
+  "username"?: string;
+  "password": string;
+  "emailVerified"?: boolean;
+  "verificationToken"?: string;
   "id"?: any;
-  "createdAt"?: any;
-  "updatedAt"?: any;
+  "createdAt"?: Date;
+  "updatedAt"?: Date;
   accessTokens?: any[];
   attendances?: Attendance[];
 }
 
 export class Employee implements EmployeeInterface {
-  "initials": any;
-  "firstName": any;
-  "lastName": any;
-  "nic": any;
-  "uid": any;
-  "joinDate": any;
-  "email": any;
-  "resignDate": any;
-  "salary": any;
-  "designation": any;
-  "contactNo": any;
-  "realm": any;
-  "username": any;
-  "password": any;
-  "emailVerified": any;
-  "verificationToken": any;
+  "initials": string;
+  "firstName": string;
+  "lastName": string;
+  "nic": string;
+  "uid": string;
+  "joinDate": Date;
+  "email": Date;
+  "resignDate": Date;
+  "salary": string;
+  "designation": string;
+  "contactNo": string;
+  "realm": string;
+  "username": string;
+  "password": string;
+  "emailVerified": boolean;
+  "verificationToken": string;
   "id": any;
-  "createdAt": any;
-  "updatedAt": any;
+  "createdAt": Date;
+  "updatedAt": Date;
   accessTokens: any[];
   attendances: Attendance[];
   constructor(data?: EmployeeInterface) {
@@ -83,67 +83,67 @@ export class Employee implements EmployeeInterface {
       properties: {
         "initials": {
           name: 'initials',
-          type: 'any'
+          type: 'string'
         },
         "firstName": {
           name: 'firstName',
-          type: 'any'
+          type: 'string'
         },
         "lastName": {
           name: 'lastName',
-          type: 'any'
+          type: 'string'
         },
         "nic": {
           name: 'nic',
-          type: 'any'
+          type: 'string'
         },
         "uid": {
           name: 'uid',
-          type: 'any'
+          type: 'string'
         },
         "joinDate": {
           name: 'joinDate',
-          type: 'any'
+          type: 'Date'
         },
         "email": {
           name: 'email',
-          type: 'any'
+          type: 'Date'
         },
         "resignDate": {
           name: 'resignDate',
-          type: 'any'
+          type: 'Date'
         },
         "salary": {
           name: 'salary',
-          type: 'any'
+          type: 'string'
         },
         "designation": {
           name: 'designation',
-          type: 'any'
+          type: 'string'
         },
         "contactNo": {
           name: 'contactNo',
-          type: 'any'
+          type: 'string'
         },
         "realm": {
           name: 'realm',
-          type: 'any'
+          type: 'string'
         },
         "username": {
           name: 'username',
-          type: 'any'
+          type: 'string'
         },
         "password": {
           name: 'password',
-          type: 'any'
+          type: 'string'
         },
         "emailVerified": {
           name: 'emailVerified',
-          type: 'any'
+          type: 'boolean'
         },
         "verificationToken": {
           name: 'verificationToken',
-          type: 'any'
+          type: 'string'
         },
         "id": {
           name: 'id',
@@ -151,11 +151,11 @@ export class Employee implements EmployeeInterface {
         },
         "createdAt": {
           name: 'createdAt',
-          type: 'any'
+          type: 'Date'
         },
         "updatedAt": {
           name: 'updatedAt',
-          type: 'any'
+          type: 'Date'
         },
       },
       relations: {

@@ -2,17 +2,17 @@
 
 declare var Object: any;
 export interface HolidayInterface {
-  "date": any;
+  "date": Date;
   "id"?: any;
-  "createdAt"?: any;
-  "updatedAt"?: any;
+  "createdAt"?: Date;
+  "updatedAt"?: Date;
 }
 
 export class Holiday implements HolidayInterface {
-  "date": any;
+  "date": Date;
   "id": any;
-  "createdAt": any;
-  "updatedAt": any;
+  "createdAt": Date;
+  "updatedAt": Date;
   constructor(data?: HolidayInterface) {
     Object.assign(this, data);
   }
@@ -46,7 +46,7 @@ export class Holiday implements HolidayInterface {
       properties: {
         "date": {
           name: 'date',
-          type: 'any'
+          type: 'Date'
         },
         "id": {
           name: 'id',
@@ -54,11 +54,11 @@ export class Holiday implements HolidayInterface {
         },
         "createdAt": {
           name: 'createdAt',
-          type: 'any'
+          type: 'Date'
         },
         "updatedAt": {
           name: 'updatedAt',
-          type: 'any'
+          type: 'Date'
         },
       },
       relations: {

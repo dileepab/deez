@@ -43,7 +43,7 @@
     </md-input-container>
 
 
-    <button type="button" md-raised-button [routerLink]="['/settings/employee/']"><md-icon>keyboard_backspace</md-icon>Back</button>
+    <button type="button" md-raised-button [routerLink]="['/settings/']"><md-icon>keyboard_backspace</md-icon>Back</button>
 
     <button type="button" md-raised-button (click)="addEmployee()" disabled="{{loading || !addEmployeeForm.valid}}" color="warn">Add
       Employee

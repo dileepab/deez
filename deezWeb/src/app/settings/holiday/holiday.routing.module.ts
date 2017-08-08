@@ -15,7 +15,7 @@ const holidayRoutes: Routes = [
     component: AllHolidaysComponent
   },
   {
-    path: 'addHolidays',
+    path: 'addHoliday',
     canActivate: [AuthGuard],
     component: AddHolidayComponent
   },

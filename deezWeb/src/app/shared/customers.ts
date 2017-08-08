@@ -1,6 +1,6 @@
 export interface CustomerInterface {
-    name: any,
-    id: any
+    name: any;
+    id: any;
 }
 
 export class Customer implements CustomerInterface{

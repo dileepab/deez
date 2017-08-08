@@ -12,12 +12,12 @@
             <tr *ngFor="let item of cut.otherMaterials; let idx = index">
                 <td>
                     <md-input-container class="example-full-width">
-                        <input name="desk-{{idx}}" mdInput placeholder="Other Material" [(ngModel)]="item.desc" value="" disabled="{{formDisabled}}">
+                        <input name="desk-{{idx}}" mdInput placeholder="Other Expenses" [(ngModel)]="item.desc" value="" disabled="{{formDisabled}}">
                     </md-input-container>
                 </td>
                 <td>
                     <md-input-container class="example-full-width">
-                        <input name="price-{{idx}}" mdInput placeholder="Cost" [(ngModel)]="item.price" value="" disabled="{{formDisabled}}">
+                        <input name="price-{{idx}}" mdInput placeholder="Value (Rs.)" [(ngModel)]="item.price" value="" disabled="{{formDisabled}}">
                     </md-input-container>
                 </td>
                 <td width="40px" style="vertical-align: top">

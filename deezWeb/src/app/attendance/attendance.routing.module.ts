@@ -9,7 +9,7 @@ const attendanceRoutes: Routes = [
   { path: 'viewAttendance', canActivate: [AuthGuard], component: ViewAttendanceComponent },
 
   // otherwise redirect to home
-  { path: '**', redirectTo: 'addAttendance' }
+  { path: '**', redirectTo: 'viewAttendance' }
 ];
 
 export const AttendanceRoutingModule = RouterModule.forChild(attendanceRoutes);

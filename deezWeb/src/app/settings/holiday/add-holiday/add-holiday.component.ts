@@ -1,6 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Holiday} from '../../../shared/sdk/models/Holiday';
 import {HolidayApi} from '../../../shared/sdk/services/custom/Holiday';
+import {Router} from '@angular/router';
+import {MdSnackBar} from '@angular/material';
 
 @Component({
   selector: 'app-add-holiday',
@@ -10,9 +12,12 @@ import {HolidayApi} from '../../../shared/sdk/services/custom/Holiday';
 export class AddHolidayComponent implements OnInit {
 
   public holiday: Holiday = new Holiday();
-  public  loading = false;
+  public loading = false;
 
-  constructor(private holidayApi: HolidayApi) { }
+  constructor(private holidayApi: HolidayApi,
+              public snackBar: MdSnackBar,
+              public router: Router) {
+  }
 
   ngOnInit() {
   }
@@ -23,6 +28,15 @@ export class AddHolidayComponent implements OnInit {
       (res: Holiday) => {
         this.holiday = new Holiday();
         this.loading = false;
+        this.snackBar.open('Successfully Added', 'DISMISS', {
+          duration: 5000,
+        });
+      },
+      (err: any) => {
+        this.snackBar.open(err.message ? err.message : 'Error Occurred!. Check Your Internet Connection',
+          (err.statusCode === 401 ? this.router.navigate(['/auth/logout']) : false) && 'DISMISS', {
+            duration: 5000
+          });
       }
     );
   }

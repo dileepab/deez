@@ -2,6 +2,8 @@ import {Component, OnInit, ElementRef, ViewChild} from '@angular/core';
 import {TitleService} from '../../services/title.service';
 import {Attendance} from '../../shared/sdk/models/Attendance';
 import {AttendanceApi} from '../../shared/sdk/services/custom/Attendance';
+import {MdSnackBar} from '@angular/material';
+import {Router} from '@angular/router';
 @Component({
   selector: 'app-add-attendance',
   templateUrl: './add-attendance.component.html',
@@ -20,7 +22,11 @@ export class AddAttendanceComponent implements OnInit {
 
   @ViewChild('fileInput') fileInput: ElementRef;
 
-  constructor(private titleService: TitleService, private attendanceApi: AttendanceApi) {
+  constructor(private titleService: TitleService,
+              private attendanceApi: AttendanceApi,
+              public snackBar: MdSnackBar,
+              public router: Router
+  ) {
   }
 
   ngOnInit() {
@@ -80,9 +86,15 @@ export class AddAttendanceComponent implements OnInit {
         this.attendances = [];
         this.localCsv = [];
         this.selectedFile = null;
+        this.snackBar.open('Successfully Added', 'DISMISS', {
+          duration: 5000,
+        });
       },
       err => {
-        alert(err.message);
+        this.snackBar.open(err.message ? err.message : 'Error Occurred!. Check Your Internet Connection',
+          (err.statusCode === 401 ? this.router.navigate(['/auth/logout']) : false) && 'DISMISS', {
+            duration: 5000
+          });
         this.loading = false;
       });
   }

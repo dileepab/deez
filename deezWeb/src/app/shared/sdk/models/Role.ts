@@ -3,19 +3,19 @@
 declare var Object: any;
 export interface RoleInterface {
   "id"?: any;
-  "name": any;
-  "description"?: any;
-  "created"?: any;
-  "modified"?: any;
+  "name": string;
+  "description"?: string;
+  "created"?: Date;
+  "modified"?: Date;
   principals?: any[];
 }
 
 export class Role implements RoleInterface {
   "id": any;
-  "name": any;
-  "description": any;
-  "created": any;
-  "modified": any;
+  "name": string;
+  "description": string;
+  "created": Date;
+  "modified": Date;
   principals: any[];
   constructor(data?: RoleInterface) {
     Object.assign(this, data);
@@ -54,19 +54,19 @@ export class Role implements RoleInterface {
         },
         "name": {
           name: 'name',
-          type: 'any'
+          type: 'string'
         },
         "description": {
           name: 'description',
-          type: 'any'
+          type: 'string'
         },
         "created": {
           name: 'created',
-          type: 'any'
+          type: 'Date'
         },
         "modified": {
           name: 'modified',
-          type: 'any'
+          type: 'Date'
         },
       },
       relations: {

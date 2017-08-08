@@ -2,36 +2,36 @@
 
 declare var Object: any;
 export interface AppUserInterface {
-  "firstName"?: any;
-  "lastName"?: any;
-  "gender"?: any;
-  "userRole"?: any;
-  "realm"?: any;
-  "username"?: any;
-  "password": any;
-  "email": any;
-  "emailVerified"?: any;
-  "verificationToken"?: any;
+  "firstName"?: string;
+  "lastName"?: string;
+  "gender"?: string;
+  "userRole"?: string;
+  "realm"?: string;
+  "username"?: string;
+  "password": string;
+  "email": string;
+  "emailVerified"?: boolean;
+  "verificationToken"?: string;
   "id"?: any;
-  "createdAt"?: any;
-  "updatedAt"?: any;
+  "createdAt"?: Date;
+  "updatedAt"?: Date;
   accessTokens?: any[];
 }
 
 export class AppUser implements AppUserInterface {
-  "firstName": any;
-  "lastName": any;
-  "gender": any;
-  "userRole": any;
-  "realm": any;
-  "username": any;
-  "password": any;
-  "email": any;
-  "emailVerified": any;
-  "verificationToken": any;
+  "firstName": string;
+  "lastName": string;
+  "gender": string;
+  "userRole": string;
+  "realm": string;
+  "username": string;
+  "password": string;
+  "email": string;
+  "emailVerified": boolean;
+  "verificationToken": string;
   "id": any;
-  "createdAt": any;
-  "updatedAt": any;
+  "createdAt": Date;
+  "updatedAt": Date;
   accessTokens: any[];
   constructor(data?: AppUserInterface) {
     Object.assign(this, data);
@@ -66,44 +66,44 @@ export class AppUser implements AppUserInterface {
       properties: {
         "firstName": {
           name: 'firstName',
-          type: 'any'
+          type: 'string'
         },
         "lastName": {
           name: 'lastName',
-          type: 'any'
+          type: 'string'
         },
         "gender": {
           name: 'gender',
-          type: 'any'
+          type: 'string'
         },
         "userRole": {
           name: 'userRole',
-          type: 'any',
+          type: 'string',
           default: 'user'
         },
         "realm": {
           name: 'realm',
-          type: 'any'
+          type: 'string'
         },
         "username": {
           name: 'username',
-          type: 'any'
+          type: 'string'
         },
         "password": {
           name: 'password',
-          type: 'any'
+          type: 'string'
         },
         "email": {
           name: 'email',
-          type: 'any'
+          type: 'string'
         },
         "emailVerified": {
           name: 'emailVerified',
-          type: 'any'
+          type: 'boolean'
         },
         "verificationToken": {
           name: 'verificationToken',
-          type: 'any'
+          type: 'string'
         },
         "id": {
           name: 'id',
@@ -111,11 +111,11 @@ export class AppUser implements AppUserInterface {
         },
         "createdAt": {
           name: 'createdAt',
-          type: 'any'
+          type: 'Date'
         },
         "updatedAt": {
           name: 'updatedAt',
-          type: 'any'
+          type: 'Date'
         },
       },
       relations: {

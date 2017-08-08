@@ -17,10 +17,11 @@
     ]
   },
   "User": {
-    "dataSource": "mongodb"
+    "dataSource": "db",
+    "public": false
   },
   "AccessToken": {
-    "dataSource": "mongodb",
+    "dataSource": "db",
     "public": false
   },
   "ACL": {
@@ -44,7 +45,10 @@
   },
   "AppUser": {
     "dataSource": "mongodb",
-    "public": true
+    "public": true,
+    "options": {
+      "emailVerificationRequired": true
+    }
   },
   "Attendance": {
     "dataSource": "mongodb",
@@ -59,6 +63,30 @@
     "public": true
   },
   "OverTime": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Email": {
+    "dataSource": "emailDataSource",
+    "public": true
+  },
+  "pattern": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "container": {
+    "dataSource": "storage",
+    "public": true
+  },
+  "spWorkingDay": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "ImageFile": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "target": {
     "dataSource": "mongodb",
     "public": true
   }

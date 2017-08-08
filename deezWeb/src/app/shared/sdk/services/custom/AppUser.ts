@@ -129,7 +129,7 @@ export class AppUserApi extends BaseLoopBackApi {
    *
    * @param {any} id AppUser id
    *
-   * @param {object} filter
+   * @param {object} filter 
    *
    * @returns {object[]} An empty reference that will be
    *   populated with the actual data once the response is returned
@@ -224,7 +224,7 @@ export class AppUserApi extends BaseLoopBackApi {
    *
    * Data properties:
    *
-   *  - `count` – `{number}` -
+   *  - `count` – `{number}` - 
    */
   public countAccessTokens(id: any, where: any = {}): Observable<any> {
     let _method: string = "GET";
@@ -322,9 +322,9 @@ export class AppUserApi extends BaseLoopBackApi {
    *
    * The response body contains properties of the AccessToken created on login.
    * Depending on the value of `include` parameter, the body may contain additional properties:
-   *
+   * 
    *   - `user` - `U+007BUserU+007D` - Data of the currently logged in user. (`include=user`)
-   *
+   * 
    *
    */
   public login(credentials: any, include: any = 'user', rememberMe: boolean = true): Observable<any> {
@@ -347,7 +347,7 @@ export class AppUserApi extends BaseLoopBackApi {
         }
       );
       return result;
-
+      
   }
 
   /**
@@ -371,19 +371,47 @@ export class AppUserApi extends BaseLoopBackApi {
     let _postBody: any = {};
     let _urlParams: any = {};
        _urlParams.access_token = this.auth.getAccessTokenId();
-    this.auth.clear();
+    this.auth.clear(); 
     let result = this.request(_method, _url, _routeParams, _urlParams, _postBody);
     return result;
   }
 
   /**
-   * Confirm a user registration with email verification token.
+   * Trigger user's identity verification with configured verifyOptions
    *
-   * @param {string} uid
+   * @param {any} id AppUser id
    *
-   * @param {string} token
+   * @param {object} data Request data.
    *
-   * @param {string} redirect
+   * This method does not accept any data. Supply an empty object.
+   *
+   * @returns {object} An empty reference that will be
+   *   populated with the actual data once the response is returned
+   *   from the server.
+   *
+   * This method returns no data.
+   */
+  public verify(id: any): Observable<any> {
+    let _method: string = "POST";
+    let _url: string = LoopBackConfig.getPath() + "/" + LoopBackConfig.getApiVersion() +
+    "/AppUsers/:id/verify";
+    let _routeParams: any = {
+      id: id
+    };
+    let _postBody: any = {};
+    let _urlParams: any = {};
+    let result = this.request(_method, _url, _routeParams, _urlParams, _postBody);
+    return result;
+  }
+
+  /**
+   * Confirm a user registration with identity verification token.
+   *
+   * @param {string} uid 
+   *
+   * @param {string} token 
+   *
+   * @param {string} redirect 
    *
    * @returns {object} An empty reference that will be
    *   populated with the actual data once the response is returned
@@ -436,9 +464,9 @@ export class AppUserApi extends BaseLoopBackApi {
    *
    * @param {object} data Request data.
    *
-   *  - `oldPassword` – `{string}` -
+   *  - `oldPassword` – `{string}` - 
    *
-   *  - `newPassword` – `{string}` -
+   *  - `newPassword` – `{string}` - 
    *
    * @returns {object} An empty reference that will be
    *   populated with the actual data once the response is returned
@@ -446,16 +474,39 @@ export class AppUserApi extends BaseLoopBackApi {
    *
    * This method returns no data.
    */
-  public changePassword(id: any, oldPassword: any, newPassword: any): Observable<any> {
+  public changePassword(oldPassword: any, newPassword: any): Observable<any> {
     let _method: string = "POST";
     let _url: string = LoopBackConfig.getPath() + "/" + LoopBackConfig.getApiVersion() +
     "/AppUsers/change-password";
-    let _routeParams: any = {
-      id: id
-    };
+    let _routeParams: any = {};
     let _postBody: any = {};
     let _urlParams: any = {};
     if (oldPassword) _urlParams.oldPassword = oldPassword;
+    if (newPassword) _urlParams.newPassword = newPassword;
+    let result = this.request(_method, _url, _routeParams, _urlParams, _postBody);
+    return result;
+  }
+
+  /**
+   * Reset user's password via a password-reset token.
+   *
+   * @param {object} data Request data.
+   *
+   *  - `newPassword` – `{string}` - 
+   *
+   * @returns {object} An empty reference that will be
+   *   populated with the actual data once the response is returned
+   *   from the server.
+   *
+   * This method returns no data.
+   */
+  public setPassword(newPassword: any): Observable<any> {
+    let _method: string = "POST";
+    let _url: string = LoopBackConfig.getPath() + "/" + LoopBackConfig.getApiVersion() +
+    "/AppUsers/reset-password";
+    let _routeParams: any = {};
+    let _postBody: any = {};
+    let _urlParams: any = {};
     if (newPassword) _urlParams.newPassword = newPassword;
     let result = this.request(_method, _url, _routeParams, _urlParams, _postBody);
     return result;
@@ -472,7 +523,7 @@ export class AppUserApi extends BaseLoopBackApi {
    *
    * Data properties:
    *
-   *  - `result` – `{any}` -
+   *  - `result` – `{any}` - 
    */
   public myRemote(): Observable<any> {
     let _method: string = "GET";
@@ -492,9 +543,9 @@ export class AppUserApi extends BaseLoopBackApi {
    *
    * @param {object} custom {"start": date, "end": date }
    *
-   * @param {object} where where filter
+   * @param {object} where where filter 
    *
-   * @param {string} groupBy group by filter
+   * @param {string} groupBy group by filter 
    *
    * @returns {object[]} An empty reference that will be
    *   populated with the actual data once the response is returned

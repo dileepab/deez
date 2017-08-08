@@ -5,23 +5,23 @@ import {
 
 declare var Object: any;
 export interface AttendanceInterface {
-  "uid": any;
-  "name"?: any;
-  "dateTime"?: any;
+  "uid": string;
+  "name"?: string;
+  "dateTime"?: Date;
   "id"?: any;
-  "createdAt"?: any;
-  "updatedAt"?: any;
+  "createdAt"?: Date;
+  "updatedAt"?: Date;
   "employeeId"?: any;
   employee?: Employee;
 }
 
 export class Attendance implements AttendanceInterface {
-  "uid": any;
-  "name": any;
-  "dateTime": any;
+  "uid": string;
+  "name": string;
+  "dateTime": Date;
   "id": any;
-  "createdAt": any;
-  "updatedAt": any;
+  "createdAt": Date;
+  "updatedAt": Date;
   "employeeId": any;
   employee: Employee;
   constructor(data?: AttendanceInterface) {
@@ -57,15 +57,15 @@ export class Attendance implements AttendanceInterface {
       properties: {
         "uid": {
           name: 'uid',
-          type: 'any'
+          type: 'string'
         },
         "name": {
           name: 'name',
-          type: 'any'
+          type: 'string'
         },
         "dateTime": {
           name: 'dateTime',
-          type: 'any'
+          type: 'Date'
         },
         "id": {
           name: 'id',
@@ -73,11 +73,11 @@ export class Attendance implements AttendanceInterface {
         },
         "createdAt": {
           name: 'createdAt',
-          type: 'any'
+          type: 'Date'
         },
         "updatedAt": {
           name: 'updatedAt',
-          type: 'any'
+          type: 'Date'
         },
         "employeeId": {
           name: 'employeeId',

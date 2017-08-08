@@ -5,15 +5,7 @@
                     [(ngModel)]="holiday.date" name="date"
                     placeholder="Date" type="date" required=""></md2-datepicker>
 
-    <!--<md2-datepicker container="dialog" class="example-full-width date-picker" openOnFocus="true"-->
-                    <!--[(ngModel)]="fromTime" name="fromTime"-->
-                    <!--placeholder="From Time" type="time"></md2-datepicker>-->
-
-    <!--<md2-datepicker container="dialog" class="example-full-width date-picker" openOnFocus="true"-->
-                    <!--[(ngModel)]="toTime" name="toTime"-->
-                    <!--placeholder="To Time" type="time"></md2-datepicker>-->
-
-    <button type="button" md-raised-button [routerLink]="['/settings/holiday/']"><md-icon>keyboard_backspace</md-icon>Back</button>
+    <button type="button" md-raised-button [routerLink]="['/settings/']"><md-icon>keyboard_backspace</md-icon>Back</button>
 
     <button type="button" md-raised-button (click)="addHoliday()" disabled="{{loading || !addEmployeeForm.valid}}" color="warn">Add
       Holiday

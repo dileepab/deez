@@ -55,6 +55,7 @@ html {
     left: 0;
     top: 0;
     padding: 50px;
+    visibility: visible;
   }
 
   .printable * {
@@ -125,7 +126,50 @@ html {
     padding: 0 0 6px 46px !important;
     margin: 1em 0;
 }
+.md2-datepicker-trigger .md2-datepicker-input{
+  min-width: calc(100% - 46px);
+}
 
 table{
   border-spacing: 0;
 }
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #fafafa inset;
+}
+
+.button-holder{
+  padding: 20px 0 0;
+}
+
+.handle{
+  cursor: pointer;
+  color: #666;
+}
+.gu-transit td{
+  border-top: 1px dotted #666;
+  border-bottom: 1px dotted #666;
+}
+.gu-mirror{
+  z-index: 10;
+  display: block;
+}
+.gu-mirror td{
+  background: #333;
+}
+
+.target-table{
+  border-spacing: 10px;
+}
+
+@media (max-width: 480px) {
+
+  .target-table{
+    border-spacing: 5px;
+    margin: 5px 0;
+  }
+  .target-table tr td:first-child{
+    display: none;
+  }
+}
+

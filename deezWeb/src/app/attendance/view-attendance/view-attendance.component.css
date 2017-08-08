@@ -70,7 +70,7 @@ tr td{
   margin: 11px;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 667px) {
   .filter{
     position: absolute;
     left: 0;

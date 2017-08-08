@@ -4,12 +4,25 @@
     "connector": "memory"
   },
   "mongodb": {
-    "host": "172.30.214.23",
-    "port": 27017,
-    "database": "deezdb",
-    "username": "",
-    "password": "",
+    "host": "ds135790.mlab.com",
+    "port": 35790,
+    "database": "garmentapp",
+    "username": "dileepa",
+    "password": "password",
     "name": "mongodb",
     "connector": "mongodb"
+  },
+  "emailDataSource": {
+    "connector": "mail",
+    "transports": [{
+      "type": "SMTP",
+      "host": "smtp.gmail.com",
+      "secure": true,
+      "port": 465,
+      "auth": {
+        "user": "deezclothings@gmail.com",
+        "pass": "deezpassword"
+      }
+    }]
   }
 }
