@@ -15,7 +15,7 @@ export class AddCutComponent implements OnInit {
 
   public cut: Cut = new Cut();
   public today = new Date();
-  public minDate = new Date(new Date().setMonth(new Date().getMonth() - 1));
+  public minDate = new Date(new Date().setMonth(new Date().getMonth() - 2));
   customers = [
     {
       name: 'Pettah',

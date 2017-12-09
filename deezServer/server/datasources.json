@@ -4,11 +4,11 @@
     "connector": "memory"
   },
   "mongodb": {
-    "host": "localhost",
-    "port": 27017,
+    "host": "ds135790.mlab.com",
+    "port": 35790,
     "database": "garmentapp",
-    "username": "",
-    "password": "",
+    "username": "dileepa",
+    "password": "password",
     "name": "mongodb",
     "connector": "mongodb"
   },

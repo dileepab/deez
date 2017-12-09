@@ -16,6 +16,7 @@
     "@mean-expert/model": "^1.0.9",
     "@types/mocha": "^2.2.40",
     "@types/node": "^7.0.12",
+    "body-parser": "^1.18.2",
     "chai": "^3.5.0",
     "compression": "^1.0.3",
     "cookie-parser": "^1.4.3",

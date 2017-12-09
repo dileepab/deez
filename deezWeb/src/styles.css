@@ -42,6 +42,20 @@ html {
     box-sizing: inherit;
 }
 
+.printOnly {
+  display: none;
+}
+
+.printable{
+  position: relative;
+}
+
+.print-btn{
+  position: absolute !important;
+  right: 20px;
+  top: 20px;
+}
+
 @media print {
   * {visibility: hidden;}
 
@@ -56,6 +70,13 @@ html {
     top: 0;
     padding: 50px;
     visibility: visible;
+  }
+  .print-btn{
+    display: none;
+  }
+  .printOnly {
+    padding-top: 20px;
+    display: block;
   }
 
   .printable * {

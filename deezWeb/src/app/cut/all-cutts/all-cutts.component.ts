@@ -58,7 +58,7 @@ export class AllCuttsComponent implements OnInit {
     this.cutApi.find({
       order: 'date DESC',
       where: {
-        date: {between: [this.startDate.setHours(0, 0, 0, 0), this.endDate.setHours(0, 0, 0, 0) + 1000 * 60 * 60 * 24]}
+        deliverDate: {between: [this.startDate.setHours(0, 0, 0, 0), this.endDate.setHours(0, 0, 0, 0) + 1000 * 60 * 60 * 24]}
       }
     }).subscribe(
       (cuts: any) => this.cuts = cuts,

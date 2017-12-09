@@ -48,18 +48,20 @@
         <td> {{row.date | date : 'MMM dd - EEE'}}</td>
         <td><span class="time-span" *ngIf="!row.inTimeEdit" (click)="row.inTimeEdit = true; changeAttendance(row)"> {{row.inTime.dateTime | date : 'HH : mm : ss'}}</span>
           <md2-datepicker *ngIf="row.inTimeEdit" container="dialog" openOnFocus="true" required [min]="minDate" [max]="maxDate"
-                          [(ngModel)]="row.inTime.dateTime || row.date" name="deliverDate" type="datetime"
+                          [(ngModel)]="row.inTime.dateTime" name="deliverDate" type="datetime"
                           placeholder="Deliver Date"></md2-datepicker>
         </td>
         <td><span class="time-span" *ngIf="!row.outTimeEdit" (click)="row.outTimeEdit = true; changeAttendance(row)">{{row.outTime.dateTime | date : 'HH : mm : ss'}}</span>
           <md2-datepicker *ngIf="row.outTimeEdit" container="dialog" openOnFocus="true" required [min]="minDate" [max]="maxDate"
-                          [(ngModel)]="row.outTime.dateTime || row.date" name="deliverDate" type="datetime"
+                          [(ngModel)]="row.outTime.dateTime" name="deliverDate" type="datetime"
                           placeholder="Deliver Date"></md2-datepicker>
         </td>
         <!--<td><span class="time-span">{{row.lateTime / (1000 * 60) | number :'1.2-2'}}</span></td>-->
         <td><span class="time-span">{{row.lateTime > 0 ? getTimeDifference(row.lateTime) : ''}}</span></td>
-        <td> {{row.status}}
-
+        <td>
+          <span *ngFor="let status of row.status">
+            {{ status }}
+          </span>
           <a md-raised-button *ngIf="row.inTimeEdit || row.outTimeEdit" (click)="updateTime(row)" href="javascript:"
              mdTooltip="Update">
             <md-icon>file_upload</md-icon>
