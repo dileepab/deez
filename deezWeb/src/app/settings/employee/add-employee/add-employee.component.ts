@@ -23,6 +23,7 @@ export class AddEmployeeComponent implements OnInit {
 
   addEmployee(): void {
     this.loading = true;
+    this.employee.isActive = true;
     this.employeeApi.create(this.employee).subscribe(
       (res: any) => {
         this.employee = new Employee();

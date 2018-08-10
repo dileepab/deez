@@ -36,6 +36,9 @@
     "nic": {
       "type": "string"
     },
+    "bocAccountNo": {
+      "type": "string"
+    },
     "uid": {
       "type": "string"
     },
@@ -56,6 +59,15 @@
       "type": "string"
     },
     "contactNo": {
+      "type": "string"
+    },
+    "isActive": {
+      "type": "boolean"
+    },
+    "inTime": {
+      "type": "string"
+    },
+    "outTime": {
       "type": "string"
     }
   },

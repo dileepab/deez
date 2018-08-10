@@ -1,18 +1,27 @@
 /* tslint:disable */
+import {
+  Employee
+} from '../index';
 
 declare var Object: any;
 export interface TargetInterface {
+  "date"?: Date;
   "target"?: any;
   "id"?: any;
+  "employeeId"?: any;
   "createdAt"?: Date;
   "updatedAt"?: Date;
+  employee?: Employee;
 }
 
 export class Target implements TargetInterface {
+  "date": Date;
   "target": any;
   "id": any;
+  "employeeId": any;
   "createdAt": Date;
   "updatedAt": Date;
+  employee: Employee;
   constructor(data?: TargetInterface) {
     Object.assign(this, data);
   }
@@ -44,12 +53,20 @@ export class Target implements TargetInterface {
       name: 'Target',
       plural: 'Targets',
       properties: {
+        "date": {
+          name: 'date',
+          type: 'Date'
+        },
         "target": {
           name: 'target',
           type: 'any'
         },
         "id": {
           name: 'id',
+          type: 'any'
+        },
+        "employeeId": {
+          name: 'employeeId',
           type: 'any'
         },
         "createdAt": {
@@ -62,6 +79,11 @@ export class Target implements TargetInterface {
         },
       },
       relations: {
+        employee: {
+          name: 'employee',
+          type: 'Employee',
+          model: 'Employee'
+        },
       }
     }
   }
